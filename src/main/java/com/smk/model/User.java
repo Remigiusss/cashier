@@ -28,8 +28,8 @@ public class User extends Model {
                 ", password='" + password + '\'' +
                 ", dateCreated=" + dateCreated +
                 ", lastModified=" + lastModified +
-                ", createdBt=" + createdBt +
-                ", undateBy=" + undateBy +
+                ", createdBt=" + createdBy +
+                ", undateBy=" + updateBy +
                 '}';
     }
 }

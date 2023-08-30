@@ -5,8 +5,8 @@ import java.util.Date;
 public class Model {
     protected Date dateCreated;
     protected Date lastModified;
-    protected Date createdBt;
-    protected Date undateBy;
+    protected Date createdBy;
+    protected Date updateBy;
 
     public Date getDateCreated() {
         return dateCreated;
@@ -24,19 +24,19 @@ public class Model {
         this.lastModified = lastModified;
     }
 
-    public Date getCreatedBt() {
-        return createdBt;
+    public Date getCreatedBy() {
+        return createdBy;
     }
 
-    public void setCreatedBt(Date createdBt) {
-        this.createdBt = createdBt;
+    public void setCreatedBy(Date createdBy) {
+        this.createdBy = createdBy;
     }
 
-    public Date getUndateBy() {
-        return undateBy;
+    public Date getUpdateBy() {
+        return updateBy;
     }
 
-    public void setUndateBy(Date undateBy) {
-        this.undateBy = undateBy;
+    public void setUpdateBy(Date updateBy) {
+        this.updateBy = updateBy;
     }
 }
